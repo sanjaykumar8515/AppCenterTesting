@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             if(retirementAgeValue<=currentAgeValue){
                 Analytics.trackEvent("Wrong_age")
             }
-            resultTextView.text="curent rate is $ interestRate"
+            resultTextView.text="curent rate is $interestRate"
         }
 
     }
